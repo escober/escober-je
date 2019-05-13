@@ -11,6 +11,7 @@ public class Student
 
    int id;
    String name;
+   String address;
 
    public static void main (String[] args)
    {
@@ -27,6 +28,8 @@ public class Student
          list[i].id = in.nextInt();
          System.out.print("Enter student name: ");
          list[i].name = in.next();
+         System.out.print("Enter student address: ");
+         list[i].address = in.next();
 
       }
 
