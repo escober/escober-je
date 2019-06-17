@@ -35,11 +35,7 @@ public class Student
       }
 
       for (int i = 0; i <= list.length - 1; i++) {
-         System.out.print("student id: " + list[i].id + "student name:" + list[i].name + "student address:" + list[i].address
-      
-   
-
-"\n");
+         System.out.print("student id: " + list[i].id + "student name:" + list[i].name + "student address:" + list[i].address + "\n");
 
       }
 
