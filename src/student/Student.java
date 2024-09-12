@@ -20,6 +20,7 @@ public class Student
       Student[] list = new Student[5];
 //        list[0].id=10;
 //        list[0].name="Megha";
+//        list[0].address= "Sheridan College";
       Scanner in = new Scanner(System.in);
 
       for (int i = 0; i <= list.length - 1; i++) {
@@ -34,11 +35,7 @@ public class Student
       }
 
       for (int i = 0; i <= list.length - 1; i++) {
-         System.out.print("student id: " + list[i].id + "student name:" + list[i].name + "student address:" + list[i].address
-      
-   
-
-"\n");
+         System.out.print("student id: " + list[i].id + "student name:" + list[i].name + "student address:" + list[i].address + "\n");
 
       }
 
